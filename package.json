@@ -1,0 +1,25 @@
+{
+  "name": "concourse-beanstalk",
+  "version": "0.1.0",
+  "description": "A resource for elastic beanstalk versions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmherrmann/concourse-beanstalk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmherrmann/concourse-beanstalk/issues"
+  },
+  "homepage": "https://`github.com/alexmherrmann/concourse-beanstalk#readme",
+  "dependencies": {
+    "typescript": "5.1.6",
+    "@types/node": "20.4.6",
+    "concourse-node-helper": "~0.2.3"
+  }
+}

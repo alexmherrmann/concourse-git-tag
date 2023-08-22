@@ -1,0 +1,5 @@
+/node_modules
+/dist
+
+# Sorry, it has credentials, but it's just a test
+/test.sh
