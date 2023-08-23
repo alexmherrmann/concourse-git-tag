@@ -63,7 +63,7 @@ function processString(input: string, logit): Array<[Date, string]> {
     return result;
 }
 
-async function promisifyExec(command: string): Promise<{ stdout: string, stderr: string, exitCode: number }> {
+export async function promisifyExec(command: string): Promise<{ stdout: string, stderr: string, exitCode: number }> {
     return new Promise((resolve, reject) => {
         exec(command, (error, stdout, stderr) => {
             if (error) {
